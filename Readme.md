@@ -22,6 +22,8 @@ docker run -dit --name <image_name> -v <volume_name>:/usr/local/tomcat/webapps -
 
 Replace <image_name> <volume_name> with your own choosen names.
 
+In order to access the web app, just type ```IPaddress:<container_port>/ticket-monster``` in browser.
+
 You can generate podman service for your container by using this command:
 ```
 podman generate systemd --name <image_name> --files
