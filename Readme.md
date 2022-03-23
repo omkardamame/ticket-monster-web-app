@@ -2,7 +2,7 @@
 
 I have developed a Docker container for this simple web app from [Ansible examples](https://github.com/ansible/ansible-examples).
 You can find the original path of war file from [here](https://github.com/ansible/ansible-examples/blob/master/jboss-standalone/roles/java-app/files/ticket-monster.war).
-
+![ticket-monster-web-app](https://github.com/omkardamame/ticket-monster-web-app/raw/master/ticket-monster-web-app.png)
 You can pull the image from below command:
 
 For Docker:
